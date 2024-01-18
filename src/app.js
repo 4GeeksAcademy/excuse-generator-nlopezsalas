@@ -34,6 +34,7 @@ window.onload = function() {
       what[randomNumber(what)] +
       " " +
       when[randomNumber(when)];
+    console.log("Excuse: " + string);
     return string;
   }
 
