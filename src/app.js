@@ -21,7 +21,6 @@ window.onload = function() {
   //generar un item aleatorio de cada uno de los arrays
   function randomNumber(arr) {
     let index = Math.floor(Math.random() * arr.length);
-    console.log("index: " + index);
     return index;
   }
 
